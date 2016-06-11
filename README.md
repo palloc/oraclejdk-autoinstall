@@ -6,8 +6,8 @@ CentOS,RHEL用です。
 個人的にCloudStackをどうしても openjdkではなくoracleのjdkで動かさなくてはならない状態に直面したのでつくりました。
 
 ## 手順
-git clone
-cd
+git clone https://github.com/palloc/oraclejdk-autoinstall.git
+cd oraclejdk-autoinstall.git
 sudo ./install.sh
 
 ## どうしてもCloudStackをOracle javaで動かしたい方へ
